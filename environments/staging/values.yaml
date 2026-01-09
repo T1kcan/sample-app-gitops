@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  tag: b718941
+  tag: 112e4b7
 ingress:
   enabled: "true"
   className: "nginx"
