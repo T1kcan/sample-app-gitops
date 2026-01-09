@@ -10,8 +10,8 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: 
-      paths:jenkins.aisapi.com.tr
+    - host: jenkins.aisapi.com.tr
+      paths:
         - path: /
           pathType: ImplementationSpecific
   tls: []
